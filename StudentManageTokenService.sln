@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentManageTokenService.Server", "StudentManageTokenService.Server\StudentManageTokenService.Server.csproj", "{D0C0CDBE-AA55-48BD-991B-18BF2D281812}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "studentmanagetokenservice.client", "studentmanagetokenservice.client\studentmanagetokenservice.client.esproj", "{F02B9B0D-755B-484E-96D6-97CE5A62C5CB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D0C0CDBE-AA55-48BD-991B-18BF2D281812}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0C0CDBE-AA55-48BD-991B-18BF2D281812}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0C0CDBE-AA55-48BD-991B-18BF2D281812}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0C0CDBE-AA55-48BD-991B-18BF2D281812}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F02B9B0D-755B-484E-96D6-97CE5A62C5CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F02B9B0D-755B-484E-96D6-97CE5A62C5CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F02B9B0D-755B-484E-96D6-97CE5A62C5CB}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{F02B9B0D-755B-484E-96D6-97CE5A62C5CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F02B9B0D-755B-484E-96D6-97CE5A62C5CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F02B9B0D-755B-484E-96D6-97CE5A62C5CB}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

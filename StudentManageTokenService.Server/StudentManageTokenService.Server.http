@@ -1,0 +1,6 @@
+@StudentManageTokenService.Server_HostAddress = http://localhost:5274
+
+GET {{StudentManageTokenService.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
