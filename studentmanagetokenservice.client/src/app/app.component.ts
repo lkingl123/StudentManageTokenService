@@ -24,15 +24,17 @@ export class AppComponent implements OnInit {
   }
 
   getForecasts() {
-    this.http.get<WeatherForecast[]>('/weatherforecast').subscribe(
+    this.http.get<WeatherForecast[]>('https://localhost:7262/weatherforecast').subscribe(
       (result) => {
+        console.log("API response:", result);  // Log successful response
         this.forecasts = result;
       },
       (error) => {
-        console.error(error);
+        console.error("API error:", error);  // Log errors
       }
     );
   }
+
 
   title = 'studentmanagetokenservice.client';
 }
